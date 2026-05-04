@@ -10,7 +10,7 @@ public class ChessApiClient {
 
     public String callRestAPIForNextMove(String fen) throws Exception {
         // Build the JSON request body
-        String requestBody = "{\"fen\": \"" + fen + "\", \"depth\": 2}";
+        String requestBody = "{\"fen\": \"" + fen + "\", \"depth\": 3}";
 
         // Create the HTTP client and request
         HttpClient client = HttpClient.newHttpClient();
